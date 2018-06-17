@@ -1,0 +1,18 @@
+.header-audio .download-links {
+    top: 0 !important;
+}
+
+h1#logo-slt {
+    font-size: 50px !important;
+    font-weight: bold;
+    line-height: 2 !important;
+    @include media-query($on-palm) {
+        font-size: 20px !important;
+    font-weight: bold;
+    line-height: 5 !important;
+    }
+    
+    a {
+        color: #fff;
+    }
+}

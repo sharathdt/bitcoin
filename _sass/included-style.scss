@@ -1,0 +1,460 @@
+body #logo-slt img {
+		width:123px;
+		padding-top:23px;
+		padding-bottom:25px;
+	}
+	#boxed-layout-slt #content-slt p.stars a, #boxed-layout-slt #content-slt p.stars a:hover, #boxed-layout-slt #content-slt .star-rating, a, .secondline-post-meta i {
+		color:#263669;
+	}
+	a:hover {
+		color:#2d2d2d;
+	}
+	header .sf-mega {margin-left:-700px; width:1400px;}
+	body .elementor-section.elementor-section-boxed > .elementor-container {max-width:1400px;}
+	.width-container-slt {  width:1400px; }
+	body.secondline-themes-header-sidebar-before #secondline-inline-icons .secondline-themes-social-icons, body.secondline-themes-header-sidebar-before:before, header#masthead-slt {
+		
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	
+	
+		 header#masthead-slt:after { display:block; background:rgba(255,255,255, 0.1);
+	}
+	
+		 .secondline-fixed-scrolled  header#masthead-slt:after { display:block; background:rgba(0,0,0,0.15);
+	}
+	body {
+		background-color:#ffffff;
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover; background-attachment: fixed;
+	}
+	#page-title-slt {
+		background-color:#000000;
+		background-image:url({{site.baseurl}}/wp-content/themes/dixie-secondline/images/page-title.jpg);
+		padding-top:184px;
+		padding-bottom:130px;
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	
+	
+	.sidebar-item {  }
+	.sidebar ul ul, .sidebar ul li, .widget .widget_shopping_cart_content p.buttons { border-color:#e5e5e5; }
+	
+	/* START BLOG STYLES */	
+	#page-title-slt-post-page {
+		background-color: #000000;
+		background-image:url({{site.baseurl}}/wp-content/themes/dixie-secondline/images/page-title.jpg);
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	
+
+	.secondline-themes-feaured-image {}
+	.secondline-themes-default-blog-overlay:hover a img, .secondline-themes-feaured-image:hover a img { opacity:1;}
+	h2.secondline-blog-title a {color:#263669;}
+	h2.secondline-blog-title a:hover {color:#2d2d2d;}
+	body h2.overlay-secondline-blog-title, body .overlay-blog-meta-category-list span, body .secondline-themes-default-blog-overlay .secondline-post-meta, body  .overlay-blog-floating-comments-viewcount {color:#ffffff;}
+	.secondline-blog-content { background:#ffffff; }
+	
+	#page-title-slt-post-page, #page-title-slt-post-page .secondline-themes-gallery .blog-single-gallery-post-format { min-height:700px; }
+	#blog-post-title-meta-container { padding-top:300px; padding-bottom:105px; }
+	/* END BLOG STYLES */
+	
+	/* START BUTTON STYLES */
+	#boxed-layout-slt .form-submit input#submit, #boxed-layout-slt input.button, .tml-submit-wrap input.button-primary, .acf-form-submit input.button, .tml input#wp-submit, #boxed-layout-slt #customer_login input.button, #boxed-layout-slt button.button, #boxed-layout-slt a.button, .infinite-nav-slt a, #newsletter-form-fields input.button, a.secondline-themes-button, .secondline-themes-sticky-post, .post-password-form input[type=submit], #respond input#submit, .wpcf7-form input.wpcf7-submit, #main-container-secondline .form-submit input#submit, #main-container-secondline input.button, .tml-submit-wrap input.button-primary, .acf-form-submit input.button, .tml input#wp-submit, #main-container-secondline #customer_login input.button, #main-container-secondline button.button, #main-container-secondline a.button {
+		font-size:12px;
+		background:#263669;
+		color:#ffffff;
+	}
+	#boxed-layout-slt button.button, #boxed-layout-slt a.button { font-size:11px; }
+	#boxed-layout-slt .form-submit input#submit:hover, #boxed-layout-slt input.button:hover, .tml-submit-wrap input.button-primary:hover, .acf-form-submit input.button:hover, .tml input#wp-submit:hover, #boxed-layout-slt #customer_login input.button:hover, #boxed-layout-slt button.button:hover, #boxed-layout-slt a.button:hover, .infinite-nav-slt a:hover, #newsletter-form-fields input.button:hover, a.secondline-themes-button:hover, .post-password-form input[type=submit]:hover, #respond input#submit:hover, .wpcf7-form input.wpcf7-submit:hover {
+		background:#2d2d2d;
+		color:#ffffff;
+	}
+	form#mc-embedded-subscribe-form  .mc-field-group input:focus, body .acf-form .acf-field .acf-input textarea:focus, body .acf-form .acf-field .acf-input-wrap input:focus, .tml input:focus, .tml textarea:focus, .widget select:focus, #newsletter-form-fields input:focus, .wpcf7-form select:focus, blockquote, .post-password-form input:focus, .search-form input.search-field:focus, #respond textarea:focus, #respond input:focus, .wpcf7-form input:focus, .wpcf7-form textarea:focus { border-color:#263669;  }
+	/* END BUTTON STYLES */
+	
+	/* START Fixed Nav Styles */
+	.secondline-themes-transparent-header .secondline-fixed-scrolled header#masthead-slt, .secondline-fixed-scrolled header#masthead-slt, #secondline-fixed-nav.secondline-fixed-scrolled { background-color:rgba(255,255,255, 0.7); }
+	body .secondline-fixed-scrolled #logo-po img {
+		
+		
+		
+	}
+	
+		
+	
+	/* END Fixed Nav Styles */
+	/* START Main Navigation Customizer Styles */
+	#secondline-shopping-cart-count a.secondline-count-icon-nav, nav#site-navigation { letter-spacing: 0.5px; }
+	#secondline-inline-icons .secondline-themes-social-icons a {
+		color:#ffffff;
+		padding-top:43px;
+		padding-bottom:43px;
+		font-size:14px;
+	}
+	.mobile-menu-icon-slt {
+		min-width:20px;
+		color:#ffffff;
+		padding-top:39px;
+		padding-bottom:37px;
+		font-size:20px;
+	}
+	.mobile-menu-icon-slt span.secondline-mobile-menu-text {
+		font-size:14px;
+	}
+	#secondline-shopping-cart-count span.secondline-cart-count {
+		top:41px;
+	}
+	#secondline-shopping-cart-count a.secondline-count-icon-nav i.shopping-cart-header-icon {
+		color:#ffffff;
+		background:#213a70;
+		padding-top:36px;
+		padding-bottom:36px;
+		font-size:26px;
+	}
+	#secondline-shopping-cart-count a.secondline-count-icon-nav i.shopping-cart-header-icon:hover,
+	.activated-class #secondline-shopping-cart-count a.secondline-count-icon-nav i.shopping-cart-header-icon { 
+		color:#ffffff;
+		background:#254682;
+	}
+	#secondline-themes-header-search-icon i.pe-7s-search {
+		color:#ffffff;
+		padding-top:37px;
+		padding-bottom:37px;
+		font-size:24px;
+	}
+	nav#secondline-themes-right-navigation ul {
+		padding-top:22px;
+	}
+	nav#secondline-themes-right-navigation ul li a {
+		font-size:14px;
+	}
+	.sf-menu a {
+		color:#ffffff;
+		padding-top:42px;
+		padding-bottom:42px;
+		font-size:14px;
+		
+	}
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled  #secondline-inline-icons .secondline-themes-social-icons a,
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled  #secondline-inline-icons .secondline-themes-social-icons a,
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon i.pe-7s-search, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu a,
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon i.pe-7s-search, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu a  {
+		color:#ffffff;
+	}
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled  #secondline-inline-icons .secondline-themes-social-icons a:hover,
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled  #secondline-inline-icons .secondline-themes-social-icons a:hover,
+	.active-mobile-icon-slt .mobile-menu-icon-slt,
+	.mobile-menu-icon-slt:hover,
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon:hover i.pe-7s-search, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon.active-search-icon-slt i.pe-7s-search, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-inline-icons .secondline-themes-social-icons a:hover, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-shopping-cart-count a.secondline-count-icon-nav:hover, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu a:hover, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover a, 
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.current-menu-item a,
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon:hover i.pe-7s-search, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-themes-header-search-icon.active-search-icon-slt i.pe-7s-search, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-inline-icons .secondline-themes-social-icons a:hover, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-shopping-cart-count a.secondline-count-icon-nav:hover, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu a:hover, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover a, 
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.current-menu-item a,
+	#secondline-themes-header-search-icon:hover i.pe-7s-search, #secondline-themes-header-search-icon.active-search-icon-slt i.pe-7s-search, #secondline-inline-icons .secondline-themes-social-icons a:hover, #secondline-shopping-cart-count a.secondline-count-icon-nav:hover, .sf-menu a:hover, .sf-menu li.sfHover a, .sf-menu li.current-menu-item a {
+		color:#ffffff;
+	}
+    .sf-menu a:hover:before, .sf-menu li.sfHover a:before, .sf-menu li.current-menu-item a:before {
+        background:#ffffff;
+        opacity: 1;
+    }
+    
+	#secondline-checkout-basket, #panel-search-secondline, .sf-menu ul {
+		background:#ffffff;
+	}
+	#main-nav-mobile { background:#ffffff; }
+	#main-nav-mobile { border-top:2px solid #b2c3de; }
+	ul.mobile-menu-slt li a { color:#263669; }
+	ul.mobile-menu-slt .sf-mega .sf-mega-section li a, ul.mobile-menu-slt .sf-mega .sf-mega-section, ul.mobile-menu-slt.collapsed li a, .sf-menu li li:last-child li a, .sf-mega li:last-child li a {border-color:#efefef;}
+	
+	#panel-search-secondline, .sf-menu ul {border-color:#b2c3de;}
+	.sf-menu li li a { 
+		letter-spacing:0px;
+		font-size:13px;
+	}
+	#secondline-checkout-basket .secondline-sub-total {
+		font-size:13px;
+	}
+	#panel-search-secondline input, #secondline-checkout-basket ul#secondline-cart-small li.empty { 
+		font-size:13px;
+	}
+	.secondline-fixed-scrolled #secondline-checkout-basket, .secondline-fixed-scrolled #secondline-checkout-basket a, .secondline-fixed-scrolled .sf-menu li.sfHover li a, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li a, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, #panel-search-secondline .search-form input.search-field, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover.highlight-button li a, .sf-menu li.current-menu-item.highlight-button li a, .secondline-fixed-scrolled #secondline-checkout-basket a.cart-button-header-cart:hover, .secondline-fixed-scrolled #secondline-checkout-basket a.checkout-button-header-cart:hover, #secondline-checkout-basket a.cart-button-header-cart:hover, #secondline-checkout-basket a.checkout-button-header-cart:hover, #secondline-checkout-basket, #secondline-checkout-basket a, .sf-menu li.sfHover li a, .sf-menu li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a {
+		color:#263669;
+	}
+	.secondline-fixed-scrolled .sf-menu li li a:hover,  .secondline-fixed-scrolled .sf-menu li.sfHover li a, .secondline-fixed-scrolled .sf-menu li.current-menu-item li a, .sf-menu li.sfHover li a, .sf-menu li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li a, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li a { 
+		background:none;
+	}
+	.secondline-fixed-scrolled #secondline-checkout-basket a:hover, .secondline-fixed-scrolled #secondline-checkout-basket ul#secondline-cart-small li h6, .secondline-fixed-scrolled #secondline-checkout-basket .secondline-sub-total span.total-number-add, .secondline-fixed-scrolled .sf-menu li.sfHover li a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover a, .secondline-fixed-scrolled .sf-menu li.sfHover li li a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .secondline-fixed-scrolled .sf-menu li.sfHover li li li a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline-fixed-scrolled .sf-menu li.sfHover li li li li a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline-fixed-scrolled .sf-menu li.sfHover li li li li li a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li li a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li li li a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li li a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li li li a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li li li li a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li li li li li a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_dark_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li li a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li li li li li a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li li a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li li li a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li li li li a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li li li li li a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .secondline_themes_force_light_navigation_color .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover.highlight-button li a:hover, .sf-menu li.current-menu-item.highlight-button li a:hover, #secondline-checkout-basket a.cart-button-header-cart, #secondline-checkout-basket a.checkout-button-header-cart, #secondline-checkout-basket a:hover, #secondline-checkout-basket ul#secondline-cart-small li h6, #secondline-checkout-basket .secondline-sub-total span.total-number-add, .sf-menu li.sfHover li a:hover, .sf-menu li.sfHover li.sfHover a, .sf-menu li.sfHover li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a, .sf-menu li.sfHover li li li li li a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a:hover, .sf-menu li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover li.sfHover a { 
+		color:#2d2d2d;
+	}
+	
+	.secondline_themes_force_dark_navigation_color .secondline-fixed-scrolled #secondline-shopping-cart-count span.secondline-cart-count,
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled #secondline-shopping-cart-count span.secondline-cart-count,
+	#secondline-shopping-cart-count span.secondline-cart-count { 
+		background:#ffffff; 
+		color:#0a0715;
+	}
+	.secondline-fixed-scrolled .sf-menu .secondline-mini-banner-icon,
+	.secondline-mini-banner-icon {
+		color:#ffffff;
+	}
+	.secondline-mini-banner-icon {
+		top:24px;
+		right:9px; 
+	}
+	
+
+	.secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.current-menu-item.highlight-button a:hover:before, .secondline_themes_force_light_navigation_color .secondline-fixed-scrolled .sf-menu li.highlight-button a:hover:before, .sf-menu li.current-menu-item.highlight-button a:hover:before, .sf-menu li.highlight-button a:hover:before {
+		width:100%;
+	}
+	
+	#secondline-checkout-basket ul#secondline-cart-small li, #secondline-checkout-basket .secondline-sub-total, #panel-search-secondline .search-form input.search-field, .sf-mega li:last-child li a, body header .sf-mega li:last-child li a, .sf-menu li li a, .sf-mega h2.mega-menu-heading, .sf-mega ul, body .sf-mega ul, #secondline-checkout-basket .secondline-sub-total, #secondline-checkout-basket ul#secondline-cart-small li { 
+		border-color:#efefef;
+	}
+	
+	#secondline-inline-icons .secondline-themes-social-icons a {
+		padding-left:11px;
+		padding-right:11px;
+	}
+	#secondline-themes-header-search-icon i.pe-7s-search {
+		padding-left:18px;
+		padding-right:18px;
+	}
+	#secondline-inline-icons .secondline-themes-social-icons {
+		padding-right:11px;
+	}
+	.sf-menu a {
+		padding-left:18px;
+		padding-right:18px;
+	}
+	
+	.sf-menu li.highlight-button { 
+		margin-right:11px;
+		margin-left:11px;
+	}
+	.sf-arrows .sf-with-ul {
+		padding-right:33px;
+	}
+	.sf-arrows .sf-with-ul:after { 
+		right:27px;
+	}
+	
+	.rtl .sf-arrows .sf-with-ul {
+		padding-right:18px;
+		padding-left:33px;
+	}
+	.rtl  .sf-arrows .sf-with-ul:after { 
+		right:auto;
+		left:27px;
+	}
+	
+	@media only screen and (min-width: 960px) and (max-width: 1300px) {
+		#page-title-slt-post-page, #page-title-slt-post-page .secondline-themes-gallery .blog-single-gallery-post-format { min-height:620px; }
+		nav#secondline-themes-right-navigation ul li a {
+			padding-left:16px;
+			padding-right:16px;
+		}
+		#post-secondary-page-title-slt, #page-title-slt {
+			padding-top:174px;
+			padding-bottom:120px;
+		}	
+		.sf-menu a {
+			padding-left:14px;
+			padding-right:14px;
+		}
+		.sf-menu li.highlight-button { 
+			margin-right:6px;
+			margin-left:6px;
+		}
+		.sf-arrows .sf-with-ul {
+			padding-right:31px;
+		}
+		.sf-arrows .sf-with-ul:after { 
+			right:25px;
+		}
+		.rtl .sf-arrows .sf-with-ul {
+			padding-left:18px;
+			padding-left:31px;
+		}
+		.rtl .sf-arrows .sf-with-ul:after { 
+			right:auto;
+			left:25px;
+		}
+		#secondline-inline-icons .secondline-themes-social-icons a {
+			padding-left:6px;
+			padding-right:6px;
+		}
+		#secondline-themes-header-search-icon i.pe-7s-search {
+			padding-left:14px;
+			padding-right:14px;
+		}
+		#secondline-inline-icons .secondline-themes-social-icons {
+			padding-right:6px;
+		}
+	}
+	
+	
+		
+	
+		
+	
+	
+	
+	
+	/* END Main Navigation Customizer Styles */
+	header .secondline-themes-social-icons a, header #secondline-inline-icons .secondline-themes-social-icons a {
+		color:#ffffff;
+	}
+
+	
+	
+    /* MEJS PLAYER */
+    body #main-container-secondline .single-player-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-current, body #main-container-secondline .single-player-container-secondline .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, body #main-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-current, body #main-container-secondline .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current, body #main-container-secondline .wp-playlist-item.wp-playlist-playing, body #main-container-secondline .wp-playlist-item.wp-playlist-playing:hover {
+        background:#b2c3de;
+    }    
+    
+    body #main-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-loaded, body #main-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-total, body #main-container-secondline .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total, body #main-container-secondline .single-player-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-loaded, body #main-container-secondline .single-player-container-secondline .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-total, body #main-container-secondline .single-player-container-secondline .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+        
+    }
+    
+    body #main-container-secondline .mejs-controls .mejs-time-rail .mejs-time-handle, body #main-container-secondline .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-handle {
+      
+    }
+    
+    body #main-container-secondline .mejs-inner .mejs-controls span, body #main-container-secondline .mejs-inner .mejs-time .mejs-currenttime, #main-container-secondline .mejs-inner .mejs-time  .mejs-duration {
+       
+    }
+    
+    body #main-container-secondline .mejs-playpause-button.mejs-play button:before, body #main-container-secondline .mejs-playpause-button.mejs-pause button:before, body #main-container-secondline .mejs-playpause-button.mejs-play button:before, body #main-container-secondline .wp-playlist .wp-playlist-next, body #main-container-secondline .wp-playlist .wp-playlist-prev, body #main-container-secondline .mejs-inner .mejs-controls button, body #main-container-secondline .mejs-container .mejs-controls .mejs-playlist.sle-selected button, #main-container-secondline .wp-playlist .wp-playlist-next:hover, #main-container-secondline  .wp-playlist .wp-playlist-prev:hover, body #main-container-secondline .mejs-inner .mejs-controls button:hover, #main-container-secondline .single-player-container-secondline .mejs-playpause-button.mejs-play button:before {
+        
+    }
+    
+    body #main-container-secondline a.powerpress_link_pinw:before, body #main-container-secondline a.podcast-meta-new-window:before, body #main-container-secondline a.powerpress_link_d:before, body #main-container-secondline a.podcast-meta-download:before {
+        
+    }    
+    
+    
+    /* END MEJS PLAYER */	
+	
+	
+	/* START FOOTER STYLES */
+	footer#site-footer {
+		background: #2b2d30;
+		
+		background-repeat: no-repeat; background-position:center center; background-size: cover;
+	}
+	footer#site-footer #secondline-themes-copyright a {  color: #6d8ae4;}
+	footer#site-footer #secondline-themes-copyright a:hover { color: #ffffff; }
+	#secondline-themes-copyright { 
+		background:#222426; 
+	}
+	#secondline-themes-lower-widget-container .widget, #widget-area-secondline .widget { padding:120px 0px 80px 0px; }
+	#copyright-text { padding:25px 0px 15px 0px; }
+	footer#site-footer .secondline-themes-social-icons {
+		padding-top:20px;
+		padding-bottom:8px;
+	}
+	footer#site-footer ul.secondline-themes-social-widget li a , footer#site-footer #secondline-themes-copyright .secondline-themes-social-icons a, footer#site-footer .secondline-themes-social-icons a {
+		color:rgba(255,255,255,0.7);
+	}
+	.sidebar ul.secondline-themes-social-widget li a, footer#site-footer ul.secondline-themes-social-widget li a, footer#site-footer .secondline-themes-social-icons a {
+		background:rgba(255,255,255,0.3);
+	}
+	footer#site-footer ul.secondline-themes-social-widget li a:hover, footer#site-footer #secondline-themes-copyright .secondline-themes-social-icons a:hover, footer#site-footer .secondline-themes-social-icons a:hover {
+		color:rgba(0,0,0,1);
+	}
+	.sidebar ul.secondline-themes-social-widget li a:hover, footer#site-footer ul.secondline-themes-social-widget li a:hover, footer#site-footer .secondline-themes-social-icons a:hover {
+		background:rgba(255,255,255,1);
+	}
+	footer#site-footer .secondline-themes-social-icons li a {
+		margin-right:5px;
+		margin-left:5px;
+	}
+	footer#site-footer .secondline-themes-social-icons a, footer#site-footer #secondline-themes-copyright .secondline-themes-social-icons a {
+		font-size:12px;
+        width:12px;
+        height:12px;
+        line-height:12px;
+	}
+	#secondline-themes-footer-logo { max-width:250px; padding-top:45px; padding-bottom:0px; padding-right:0px; padding-left:0px; }
+	/* END FOOTER STYLES */
+	@media only screen and (max-width: 959px) { 
+		
+		#page-title-slt-post-page, #page-title-slt-post-page .secondline-themes-gallery .blog-single-gallery-post-format { min-height:580px; }
+		
+		#post-secondary-page-title-slt, #page-title-slt {
+			padding-top:154px;
+			padding-bottom:100px;
+		}
+		.secondline-themes-transparent-header header#masthead-slt {
+			
+			
+			background-repeat: no-repeat; background-position:center center; background-size: cover;
+		}
+		
+		
+		
+		
+	}
+	@media only screen and (max-width: 959px) {
+		#secondline-themes-lower-widget-container .widget, #widget-area-secondline .widget { padding:90px 0px 50px 0px; }
+	}
+	@media only screen and (min-width: 960px) and (max-width: 1500px) {
+        body #main-container-secondline .width-container-slt, .width-container-slt {
+			width:92%; 
+            padding: 0;
+			position:relative;
+            padding-left: 0px;
+            padding-right: 0px;
+		}
+        
+        body .elementor-section.elementor-section-boxed > .elementor-container {max-width:92%;}
+        
+        body #main-container-secondline {
+            width: 100%;
+        }
+
+		
+		footer#site-footer.secondline-themes-footer-full-width .width-container-slt,
+		.secondline-themes-page-title-full-width #page-title-slt .width-container-slt,
+		.secondline-themes-header-full-width header#masthead-slt .width-container-slt {
+			width:92%; 
+			position:relative;
+			padding:0px;
+		}
+		.secondline-themes-header-full-width-no-gap.secondline-themes-header-cart-width-adjustment header#masthead-slt .width-container-slt,
+		.secondline-themes-header-full-width.secondline-themes-header-cart-width-adjustment header#masthead-slt .width-container-slt {
+			width:98%;
+			margin-left:2%;
+			padding-right:0;
+		}
+		#secondline-shopping-cart-toggle.activated-class a i.shopping-cart-header-icon,
+		#secondline-shopping-cart-count i.shopping-cart-header-icon {
+			padding-left:24px;
+			padding-right:24px;
+		}
+		#secondline-shopping-cart-count span.secondline-cart-count {
+			right:14px;
+		}
+		header .sf-mega {
+			margin-right:2%;
+			width:98%; 
+			left:0px;
+			margin-left:auto;
+		}
+	}
+	
+	::-moz-selection {color:#ffffff;background:#263669;}
+	::selection {color:#ffffff;background:#263669;}
