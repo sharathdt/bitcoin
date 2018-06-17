@@ -7,4 +7,12 @@
 baseurl: /bitcoin
 
 
+
 developer: webjeda
+
+
+
+paginate: 6
+paginate_path: /page:num/
+plugins: 
+    - jekyll-paginate
