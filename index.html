@@ -42,7 +42,7 @@
 			<ul class="slides">
 								<li class="secondline_animate_none flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; transition: opacity 0.5s ease; z-index: 2;">
 					
-<div class="secondline-elements-slider-background" style="background-image:url({{site.baseurl}}/images/trading.png)">
+<div class="secondline-elements-slider-background" style="background-image:url({{site.baseurl}}/img/bitcoin-black.png)">
 		<div class="slider-elements-display-table">
 	
 		<div class="slider-text-floating-container">
@@ -170,7 +170,7 @@
 				<div class="secondline-themes-default-blog-index">
 					<div class="secondline-themes-feaured-image">
 						<a href="{{site.baseurl}}{post.url}">
-							<img width="350" height="325" src="{{site.baseurl}}/img/bitcoin.jpg" class="attachment-secondline-themes-index-single-column size-secondline-themes-index-single-column wp-post-image match-height-slt" alt="">
+							<img width="350" height="325" src="{{site.baseurl}}/img/bitcoin-knowledge-podcast.jpg" class="attachment-secondline-themes-index-single-column size-secondline-themes-index-single-column wp-post-image match-height-slt" alt="">
 							</a>
 						</div>
 						<!-- close .secondline-themes-feaured-image -->
@@ -757,24 +757,31 @@
 				
 									<div id="text-1" class="widget widget_text"><h4 class="widget-title">About Dixie</h4>			<div class="textwidget"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet eros leo, eget consequat orci viverra nec. Suspendisse pellentesque sem metus, et mollis purus auctor in eoses eget. Powered by&nbsp;<strong>SecondLineThemes</strong></p>
 </div>
-		</div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h4 class="widget-title">Recent Posts</h4>		<ul>
-											<li>
-					<a href="{{site.baseurl}}/episode-10-new-recording-studios/">Episode 10: New Recording Studios</a>
-											<span class="post-date">July 24, 2017</span>
-									</li>
-											<li>
-					<a href="{{site.baseurl}}/episode-9-modern-interior-design/">Episode 9: Modern Interior Design</a>
-											<span class="post-date">July 24, 2017</span>
-									</li>
-											<li>
-					<a href="{{site.baseurl}}/episode-8-audio-software-for-podcasters/">Episode 8: Street Art in Brooklyn</a>
-											<span class="post-date">July 24, 2017</span>
-									</li>
-											<li>
-					<a href="{{site.baseurl}}/episode-7-camera-gear-review/">Episode 7: Camera Gear Review</a>
-											<span class="post-date">July 24, 2017</span>
-									</li>
+		</div>		<div id="recent-posts-3" class="widget widget_recent_entries">		<h4 class="widget-title">Recent Posts</h4>		
+                                        
+                    <ul>
+                       {% for post in site.posts limit: 4 %}
+                        <li>
+                        <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+                        <span class="post-date">{{post.date | date: "%B %-d, %Y" }}</span>
+                        </li>
+                        
+                        {% endfor %}
+                        <!-- <li>
+                        <a href="{{site.baseurl}}/episode-9-modern-interior-design/">Episode 9: Modern Interior Design</a>
+                        <span class="post-date">July 24, 2017</span>
+                        </li>
+                        <li>
+                        <a href="{{site.baseurl}}/episode-8-audio-software-for-podcasters/">Episode 8: Street Art in Brooklyn</a>
+                        <span class="post-date">July 24, 2017</span>
+                        </li>
+                        <li>
+                        <a href="{{site.baseurl}}/episode-7-camera-gear-review/">Episode 7: Camera Gear Review</a>
+                        <span class="post-date">July 24, 2017</span>
+                        </li> -->
 					</ul>
+					
+					
 		</div><div id="categories-3" class="widget widget_categories"><h4 class="widget-title">Categories</h4>		<ul>
 	<li class="cat-item cat-item-5"><a href="{{site.baseurl}}/category/art/">Art <span class="count">2</span></a>
 </li>
