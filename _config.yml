@@ -1,18 +1,12 @@
-
-
-
-
-
+# Site information
 
 baseurl: /bitcoin
-
-
-
 developer: webjeda
-
-
 
 paginate: 6
 paginate_path: /page:num/
+
+
+# Plugins used by the website
 plugins: 
     - jekyll-paginate
