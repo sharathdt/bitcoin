@@ -1,0 +1,124 @@
+---
+permalink: /feed/podcast/ 
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+>
+<channel>
+	<title>The Bitcoin Knowledge Podcast</title>
+	<atom:link href="https://www.bitcoin.kn/feed/podcast/" rel="self" type="application/rss+xml" />
+	<link>https://www.bitcoin.kn</link>
+	<description>Interviews with top people in Bitcoin, blockchain and fintech</description>
+	<lastBuildDate>Tue, 05 Jun 2018 20:08:34 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+		<generator>https://wordpress.org/?v=4.9.6</generator>
+<!-- podcast_generator="Blubrry PowerPress/7.2" mode="advanced" feedslug="podcast" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
+	<itunes:summary>Interviews with the top people in the Bitcoin world about blockchain and fintech. Your host is Trace Mayer, J.D. recommended Bitcoin around a nickel and has invested in key infrastructure such as (1) Armory - the most secure Bitcoin wallet, (2) Bitpay - the largest Bitcoin merchant processor, (3) Bitmain - the largest and most profitable Bitcoin mining company and (4) Kraken - the largest Euro and best Bitcoin exchange. He has helped many people profit by demonstrating a significant documented foresight and prognostication ability in the money, currency and payment markets and developments.&lt;br /&gt;
+&lt;br /&gt;
+Gold, Bitcoin, blockchain, silver, finance and economics. Monetary science applied to current events. This wrapup will teach you about sound money and cutting edge technologies to help you protect, preserve and grow your wealth during The Great Credit Contraction holders of capital are increasingly seeking safety and liquidity.&lt;br /&gt;
+&lt;br /&gt;
+Mr. Mayer has degrees in accounting and law and has studied the Austrian school of economics. He has authored several books and speaks internationally at investment conferences.&lt;br /&gt;
+&lt;br /&gt;
+Gold has been the penultimate safe haven throughout millennia and will remain the Ancient Metal of Kings. But the new decentralized peer-to-peer censorship-resistant blockchain technology, the cryptocurrency Bitcoin, has set a new standard for liquidity. Bitcoin allow users to send any amount of money to any other person instantly without a fee to anywhere in the world without any restrictions whatsoever.&lt;br /&gt;
+&lt;br /&gt;
+Because bitcoins are a sterile asset, like gold, any rise in price functions as a wealth transfer from other assets in the economy to holders of bitcoins on the blockchain.&lt;br /&gt;
+&lt;br /&gt;
+For the past decade the fiat currency collapse has continued unabated with all major fiat currencies falling relative to gold. But at the same time over the past couple years gold has completely collapsed relative to Bitcoin; gold’s performance relative to Bitcoin is worse than the Argentina Peso against the USD.&lt;br /&gt;
+&lt;br /&gt;
+The market has a way of financially rewarding the solutions, instead of refuges, because they add more value to society. And that is what gold’s currency collapse relative to Bitcoin is signaling; a massive wealth transfer has started from holders of assets in the traditional fiat currency system, gold, silver, etc. and other assets to holders of bitcoins.&lt;br /&gt;
+&lt;br /&gt;
+Topics explored at depth by the American Monetary Association include Bitcoin, digital currencies, investing, corporate tax inversions, crowdfunding, inflation, the Federal Reserve, student loan debt, monetary policy, economic challenges facing generation Y, solar energy, 3D printing, medical technology, US dollar, currency exchange, plunging bond rates, personal and commercial bankruptcy, the cost of a college education, digital banking, the American dream, capital gains taxes, asset protection, gold and silver, commodities markets, precious metals, investing tips, structural and personal unemployment, bank regulations, regulatory reform, emerging markets, shadow banking, social media, derivatives, mobile commerce, government regulation, housing market, identity theft, cyber currencies, mortgage lenders, investment properties, VA loans, gold standard, Fannie Mae, Freddie Mac, online auctions, landlord tenant conflicts, tax lien investing, tax law, retirement, contract law, stagflation, home loans, real estate scams, renters, reverse mortgages, foreclosures, euro, European Union, ECB, European Central Bank, the US housing market, micro lending, online security, cyber security, online banking, digital banking, outsourcing, online shopping, Amazon, Apple, Facebook, Twitter, JP Morgan, short sales, austerity, forex, monetary systems, budget surplus, budget deficits, tax cuts, solar energy, consumer debt, consumer price index, property investing, high frequency trading, interest rates, college tuition,</itunes:summary>
+	<itunes:author>Trace Mayer, J.D.</itunes:author>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:image href="http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg" />
+	<itunes:owner>
+		<itunes:name>Trace Mayer, J.D.</itunes:name>
+		<itunes:email>admin@runtogold.com</itunes:email>
+	</itunes:owner>
+	<managingEditor>admin@runtogold.com (Trace Mayer, J.D.)</managingEditor>
+	<itunes:subtitle>Interviews with top people in Bitcoin on blockchain technology for fintech including Roger Ver, Tony Gallippi, Jeffrey Tucker, Erik Voorhees, Adam Back, Jesse Powell and many more.</itunes:subtitle>
+	<image>
+		<title>The Bitcoin Knowledge Podcast</title>
+		<url>http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg</url>
+		<link>https://www.bitcoin.kn</link>
+	</image>
+	<itunes:category text="Business">
+		<itunes:category text="Investing"></itunes:category>
+	</itunes:category>
+	<itunes:category text="Technology">
+		<itunes:category text="Tech News"></itunes:category>
+	</itunes:category>
+	<itunes:category text="Business">
+		<itunes:category text="Business News"></itunes:category>
+	</itunes:category>
+	<googleplay:email>admin@runtogold.com</googleplay:email>
+	<googleplay:description>Interviews with the top people in the Bitcoin world about blockchain technology. Your host is Trace Mayer, J.D. recommended Bitcoin around a nickel and has invested in key infrastructure such as (1) Armory - the most secure Bitcoin wallet, (2) Bitpay - the largest Bitcoin merchant processor, (3) Bitmain - the largest and most profitable Bitcoin mining company and (4) Kraken - the largest Euro and best Bitcoin exchange. He has helped many people profit by demonstrating a significant documented foresight and prognostication ability in the money, currency and payment markets and developments.
+
+Gold, Bitcoin, blockchain, silver, finance and economics. Monetary science applied to current events. This wrapup will teach you about sound money and cutting edge technologies to help you protect, preserve and grow your wealth during The Great Credit Contraction holders of capital are increasingly seeking safety and liquidity.
+
+Mr. Mayer has degrees in accounting and law and has studied the Austrian school of economics. He has authored several books and speaks internationally at investment conferences.
+
+Gold has been the penultimate safe haven throughout millennia and will remain the Ancient Metal of Kings. But the new decentralized peer-to-peer censorship-resistant blockchain technology, the cryptocurrency Bitcoin, has set a new standard for liquidity. Bitcoin allow users to send any amount of money to any other person instantly without a fee to anywhere in the world without any restrictions whatsoever.
+
+Because bitcoins are a sterile asset, like gold, any rise in price functions as a wealth transfer from other assets in the economy to holders of bitcoins on the blockchain.
+
+For the past decade the fiat currency collapse has continued unabated with all major fiat currencies falling relative to gold. But at the same time over the past couple years gold has completely collapsed relative to Bitcoin; gold’s performance relative to Bitcoin is worse than the Argentina Peso against the USD.
+
+The market has a way of financially rewarding the solutions, instead of refuges, because they add more value to society. And that is what gold’s currency collapse relative to Bitcoin is signaling; a massive wealth transfer has started from holders of assets in the traditional fiat currency system, gold, silver, etc. and other assets to holders of bitcoins.
+
+To learn more:
+
+https://www.weusecoins.com
+https://www.bitcoinmining.com
+http://www.freebitcoinguide.com</googleplay:description>
+	<googleplay:category text="Technology" />
+	<rawvoice:rating>TV-G</rawvoice:rating>
+	<rawvoice:subscribe feed="https://www.bitcoin.kn/feed/podcast/" itunes="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=301670981" googleplay="https://play.google.com/music/listen?u=0#/ps/Irlb4w6oadbtb3z6fapx6igogji" blubrry="https://www.blubrry.com/bitcoinkn" stitcher="http://www.stitcher.com/podcast/trace-mayer-jd/bitcoin-knowledge-podcast"></rawvoice:subscribe>
+
+
+
+{% for post in site.posts %}
+{% assign words = post.enclosure | split: '\n' %}
+    <item>
+		<title>{{post.title}}</title>
+		<link>{{post.url}}</link>
+		<pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+		<guid isPermaLink="false">{{post.guid}}</guid>
+	<!-- 	<comments>https://www.bitcoin.kn/2018/05/trader-cobb-bitcoin-trading/#respond</comments>
+		<wfw:commentRss>https://www.bitcoin.kn/2018/05/trader-cobb-bitcoin-trading/feed/</wfw:commentRss> -->
+		<!-- <slash:comments>0</slash:comments> -->
+    {% for category in post.categories %}
+		<category><![CDATA[{{category}}]]></category>
+    {% endfor %}    
+    {% for tag in post.tags %}
+		<category><![CDATA[{{tag}}]]></category>
+    {% endfor %}
+		
+		<description>{{post.description}}</description>
+		<content:encoded><![CDATA[{{post.content}}]]></content:encoded>
+		<enclosure url="{{words[0] | remove: '["'}}" length="{{words[1]}}" type="audio/mpeg" />
+		<itunes:subtitle>{{post.subtitle}}</itunes:subtitle>
+		<itunes:summary><![CDATA[{{post.content}}]]></itunes:summary>
+		<itunes:author>{{post.author}}</itunes:author>
+		<itunes:image href="http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg" />
+		<itunes:explicit>clean</itunes:explicit>
+		<itunes:duration>{{post.duration}}</itunes:duration>
+		</item>
+		
+{% endfor %}
+
+
+
+</channel>
+</rss>
