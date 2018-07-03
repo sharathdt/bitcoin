@@ -81,7 +81,9 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 		<itunes:author>{{post.author}}</itunes:author>
 		<itunes:image href="http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg" />
 		<itunes:explicit>clean</itunes:explicit>
+		{% if post.duration %}
 		<itunes:duration>{{post.duration}}</itunes:duration>
+		{% endif %}
 		</item>
 		
 {% endfor %}
