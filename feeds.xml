@@ -15,7 +15,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 >
 <channel>
 	<title>The Bitcoin Knowledge Podcast</title>
-	<atom:link href="https://www.bitcoin.kn/feed/podcast/" rel="self" type="application/rss+xml" />
+	<atom:link href="{{site.url}}{{site.baseurl}}{{page.url}}" rel="self" type="application/rss+xml" />
 	<link>https://www.bitcoin.kn</link>
 	<description>Interviews with top people in Bitcoin, blockchain and fintech</description>
 	<lastBuildDate>Tue, 05 Jun 2018 20:08:34 +0000</lastBuildDate>
