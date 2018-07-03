@@ -106,10 +106,10 @@ http://www.freebitcoinguide.com</googleplay:description>
     {% endfor %}
 		
 		<description>{{post.description}}</description>
-		<content:encoded><![CDATA[{{post.content}}]]></content:encoded>
+		<content:encoded><![CDATA[{{post.content | xml_escape}}]]></content:encoded>
 		<enclosure url="{{words[0] | remove: '["'}}" length="{{words[1]}}" type="audio/mpeg" />
 		<itunes:subtitle>{{post.subtitle}}</itunes:subtitle>
-		<itunes:summary><![CDATA[{{post.content | truncate:4000}}]]></itunes:summary>
+		<itunes:summary><![CDATA[{{post.content | truncate:4000 | xml_escape}}]]></itunes:summary>
 		<itunes:author>{{post.author}}</itunes:author>
 		<itunes:image href="http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg" />
 		<itunes:explicit>clean</itunes:explicit>
