@@ -24,7 +24,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 	<sy:updateFrequency>1</sy:updateFrequency>
 		<generator>Jekyll</generator>
 <!-- podcast_generator="Blubrry PowerPress/7.2" mode="advanced" feedslug="podcast" Blubrry PowerPress Podcasting plugin for WordPress (https://www.blubrry.com/powerpress/) -->
-	<itunes:summary>{{site.description | xml_escape | truncate:4000}}</itunes:summary>
+	<itunes:summary>{{site.description | truncate:4000 | xml_escape}}</itunes:summary>
 	<itunes:author>Trace Mayer, J.D.</itunes:author>
 	<itunes:explicit>clean</itunes:explicit>
 	<itunes:image href="http://www.bitcoin.kn/images/bitcoin-knowledge-podcast.jpg" />
@@ -49,7 +49,7 @@ xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
 		<itunes:category text="Business News"></itunes:category>
 	</itunes:category>
 	<googleplay:email>admin@runtogold.com</googleplay:email>
-	<googleplay:description>{{site.description | xml_escape | truncate:4000}}</googleplay:description>
+	<googleplay:description>{{site.description | truncate:4000 | xml_escape }}</googleplay:description>
 	<googleplay:category text="Technology" />
 	<rawvoice:rating>TV-G</rawvoice:rating>
 	<rawvoice:subscribe feed="https://www.bitcoin.kn/feed/podcast/" itunes="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=301670981" googleplay="https://play.google.com/music/listen?u=0#/ps/Irlb4w6oadbtb3z6fapx6igogji" blubrry="https://www.blubrry.com/bitcoinkn" stitcher="http://www.stitcher.com/podcast/trace-mayer-jd/bitcoin-knowledge-podcast"></rawvoice:subscribe>
