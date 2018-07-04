@@ -1,0 +1,282 @@
+
+        <section data-id="tpynybq" class="elementor-element elementor-element-tpynybq elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-element_type="section" >
+         <div class="elementor-container elementor-column-gap-no">
+				<div class="elementor-row">
+				<div data-id="yfnshqi" class="elementor-element elementor-element-yfnshqi elementor-column elementor-col-100 elementor-top-column" data-element_type="column">
+			<div class="elementor-column-wrap elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div data-id="jabkqvb" class="elementor-element elementor-element-jabkqvb elementor-widget elementor-widget-heading" data-element_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default white">Latest Episodes</h2>		</div>
+				</div>
+				<div data-id="insmkas" class="elementor-element elementor-element-insmkas elementor-widget elementor-widget-divider white" data-element_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator"></span>
+		</div>
+            
+				</div>
+				</div>
+				<div data-id="pnthgvg" class="elementor-element elementor-element-pnthgvg elementor-widget elementor-widget-secondline-post-list" data-element_type="secondline-post-list.default">
+				<div class="elementor-widget-container">
+				
+
+
+	<div class="secondline-themes-post-list-main">
+
+		
+		
+		<div class="secondline-masonry-margins">
+			<div id="secondline-blog-index-masonry-pnthgvg" style="position: relative; height: 2022px;">
+		
+{% for post in paginator.posts offset: 1 %}
+    <div class="secondline-masonry-item  opacity-secondline" style="position: absolute; left: 0%; top: 0px;">
+	<div class="secondline-masonry-padding-blog  secondline_elements_post_list_read_more single-column-slt fitRows-secondline ">
+		<div class="secondline-themes-isotope-animation">
+			<div id="post-79" class="post-79 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
+				<div class="secondline-themes-default-blog-index">
+					<div class="secondline-themes-feaured-image">
+						<a href="{{site.baseurl}}{post.url}">
+							<img width="350" height="325" src="{{site.baseurl}}/img/bitcoin-knowledge-podcast.jpg" class="attachment-secondline-themes-index-single-column size-secondline-themes-index-single-column wp-post-image match-height-slt" alt="">
+							</a>
+						</div>
+						<!-- close .secondline-themes-feaured-image -->
+						<!-- close gallery -->
+						{% assign words = post.enclosure | split: '\n' %}
+						<div class="secondline-blog-content match-height-slt">
+							<h2 class="secondline-blog-title">
+								<a href="{{site.baseurl}}{{post.url}}" class="white">{{post.title}}</a>
+							</h2>
+							<div class="secondline-post-meta">
+								<span class="blog-meta-date-display white">{{post.date | date: "%B %-d, %Y" }}</span>
+								<span class="blog-meta-author-display white">
+									<a href="{{site.baseurl}}/author/dixie/" class="white">{{post.author}}</a>
+								</span>
+								<span class="blog-meta-category-list white">
+									<a href="{{site.baseurl}}/category/design/" rel="category tag" class="white">{{post.tags | join: ', '}}</a>
+								</span>
+								<!-- <span class="blog-meta-time-slt">{{post.duration}}</span> -->
+							</div>
+							<div class="secondline-themes-blog-excerpt">
+								<div class="slt-addon-excerpt">
+									<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the...</p>
+								</div>
+								<a class="more-link" href="{{site.baseurl}}{{post.url}}">
+									<i class="fa " aria-hidden="true"></i> Read More
+								</a>
+								<div class="post-list-player-container-secondline">
+									<div class="powerpress_player" id="powerpress_player_7312">
+										<audio class="wp-audio-shortcode" id="audio-79-2" preload="none" style="width: 100%;" controls="controls">
+										
+											<source type="audio/mpeg" src="{{words[0] | remove: '["'}}" />
+											<a href="{{post.podcast}}">{{post.podcast}}</a>
+										</audio>
+									</div>
+									<p class="powerpress_links powerpress_links_mp3">Podcast: 
+										<a href="{{post.podcast}}" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('{{site.baseurl}}{{post.url}}');" rel="nofollow">Play in new window</a> | 
+										<a href="{{post.podcast}}" class="powerpress_link_d" title="Download" rel="nofollow" download="{{post.podcast}}">Download</a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<!-- close .secondline-blog-content -->
+						<div class="clearfix-slt"></div>
+					</div>
+					<!-- close .secondline-themes-default-blog-index -->
+				</div>
+				<!-- #post-## -->
+			</div>
+		</div>
+	</div>
+								
+{% endfor %}
+       
+       
+</div>
+</div>
+				
+	
+		<!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination"> 
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+  {% else %}
+    <span>&laquo; Prev</span>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="webjeda">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{site.baseurl}}/">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+  {% else %}
+    <span>Next &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
+				
+		
+		<div class="clearfix-slt"></div>
+		
+	
+		
+					
+    <div id="secondline-load-more-manual">
+    <!-- <div id="infinite-nav-slt-pnthgvg" class="infinite-nav-slt"><div class="nav-previous"><a href="{{site.baseurl}}/page/2/">More Episodes<span><i class="fa "></i></span></a></div> -->
+    </div>
+    </div>
+						
+			
+		
+		
+	</div><!-- close .secondline-themes-post-list-main -->
+	
+	<script type="text/javascript"> 
+	jQuery(document).ready(function($) {
+		'use strict';
+		/* Default Isotope Load Code */
+		var $containerpnthgvg = $("#secondline-blog-index-masonry-pnthgvg").isotope();
+		$containerpnthgvg.imagesLoaded( function() {
+			$(".secondline-masonry-item").addClass("opacity-secondline");
+			$containerpnthgvg.isotope({
+				itemSelector: "#secondline-blog-index-masonry-pnthgvg .secondline-masonry-item",				
+				percentPosition: true,
+				layoutMode: "fitRows"  
+	 		});
+		});
+		/* END Default Isotope Code */		
+		
+		
+				
+		
+		
+		
+				
+		/* Begin Infinite Scroll */
+		$containerpnthgvg.infinitescroll({
+		errorCallback: function(){  $("#infinite-nav-slt-pnthgvg").delay(500).fadeOut(500, function(){ $(this).remove(); }); },
+		  navSelector  : "#infinite-nav-slt-pnthgvg",  
+		  nextSelector : "#infinite-nav-slt-pnthgvg .nav-previous a", 
+		  itemSelector : "#secondline-blog-index-masonry-pnthgvg .secondline-masonry-item", 
+	   		loading: {
+	   		 	img: "{{site.baseurl}}/wp-content/themes/dixie-secondline/images/loader.gif",
+	   			 msgText: "",
+	   		 	finishedMsg: "<div id='no-more-posts'>No more posts</div>",
+	   		 	speed: 0, }
+		  },
+		  
+		  
+		  // trigger Isotope as a callback
+		  function( newElements ) {
+			  
+			  !function(a, b) {
+			      function c() {
+			          function a() {
+			              "undefined" != typeof _wpmejsSettings && (c = b.extend(!0, {}, _wpmejsSettings)), c.success = c.success || function(a) {
+			                  var b,
+			                      c;
+			                  "flash" === a.pluginType && (b = a.attributes.autoplay && "false" !== a.attributes.autoplay, c = a.attributes.loop && "false" !== a.attributes.loop, b && a.addEventListener("canplay", function() {
+			                      a.play()
+			                  }, !1), c && a.addEventListener("ended", function() {
+			                      a.play()
+			                  }, !1))
+			              }, b(".wp-audio-shortcode, .wp-video-shortcode").not(".mejs-container").filter(function() {
+			                  return !b(this).parent().hasClass(".mejs-mediaelement")
+			              }).mediaelementplayer(c)
+			          }
+			          var c = {};
+			          return {
+			              initialize: a
+			          }
+			      }
+			      a.wp = a.wp || {}, mejs.plugins.silverlight[0].types.push("video/x-ms-wmv"), mejs.plugins.silverlight[0].types.push("audio/x-ms-wma"), a.wp.mediaelement = new c, b(a.wp.mediaelement.initialize)
+			  }(window, jQuery);
+
+
+		     $(".secondline-themes-gallery").flexslider({
+		 		animation: "fade",      
+		 		slideDirection: "horizontal", 
+		 		slideshow: false,   
+		 		smoothHeight: false,
+		 		slideshowSpeed: 7000,  
+		 		animationSpeed: 1000,        
+		 		directionNav: true,             
+		 		controlNav: true,
+		 		prevText: "",   
+		 		nextText: "",
+		     });
+			  
+		    	$(".secondline-themes-default-blog-overlay a[data-rel^=\'prettyPhoto\'], .secondline-themes-feaured-image a[data-rel^=\'prettyPhoto\']").prettyPhoto({
+		  			theme: "pp_default",
+		    			hook: "data-rel",
+		  			opacity: 0.7,
+		    			show_title: false, 
+		    			deeplinking: false,
+		    			overlay_gallery: false,
+		    			custom_markup: "",
+		  			default_width: 1100,
+		  			default_height: 619,
+		    		social_tools:""
+		    	});
+				
+				$(".secondline-themes-default-blog-overlay, .secondline-themes-default-blog-index").fitVids();
+
+				
+		    var $newElems = $( newElements );
+ 	
+				$newElems.imagesLoaded(function(){
+					
+				$containerpnthgvg.isotope( "appended", $newElems );
+				$(".secondline-masonry-item").addClass("opacity-secondline");      
+							  
+				
+				if (window.innerWidth > 959) {
+					$(".single-column-slt .secondline-themes-feaured-image img").addClass("match-height-slt");
+					$(".single-column-slt .secondline-blog-content").addClass("match-height-slt");
+					$(".single-column-slt.secondline_elements_post_list_disable_match .secondline-themes-feaured-image img").removeClass("match-height-slt");
+					$(".single-column-slt.secondline_elements_post_list_disable_match .secondline-blog-content").removeClass("match-height-slt");
+				
+					$('.match-height-slt').matchHeight();
+					$('body .grid-columns-slt.fitRows-secondline .secondline-blog-content').matchHeight({byRow: true,});
+				};
+				
+				
+				
+			});
+
+		  }
+		);
+	    /* END Infinite Scroll */
+				
+		
+				/* PAUSE FOR LOAD MORE */
+		$(window).unbind(".infscr");
+		// Resume Infinite Scroll
+		$("#infinite-nav-slt-pnthgvg .nav-previous a").click(function(){
+			$containerpnthgvg.infinitescroll("retrieve");
+			return false;
+		});
+		/* End Infinite Scroll */
+				
+	});
+	</script>
+	
+
+
+		
+
+			</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+		</section>
