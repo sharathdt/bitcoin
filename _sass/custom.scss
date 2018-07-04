@@ -35,3 +35,28 @@ body #main-container-secondline .elementor-13 .elementor-element.elementor-eleme
 body #main-container-secondline .elementor-13 .elementor-element.elementor-element-pnthgvg .secondline-themes-post-list-main .mejs-container .mejs-inner .mejs-controls .mejs-time-rail span.mejs-time-current, body #main-container-secondline .elementor-13 .elementor-element.elementor-element-pnthgvg .secondline-themes-post-list-main .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
     background: cornflowerblue;
 }
+
+.wj-pagination {
+    text-align: center;
+    margin-top: 2em;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+            display: inline-block;
+        }
+    }
+}
+.wj-pagination a, .wj-pagination span {
+    padding: 7px 18px;
+    border: 1px solid #eee;
+    margin-left: -3px;
+    margin-right: -3px;
+    background-color: #ffffff;
+    display: inline-block;
+}
+.wj-pagination a:hover {    
+    background-color: #f1f1f1;
+    color: #333;
+}
