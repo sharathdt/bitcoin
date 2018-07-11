@@ -11,6 +11,9 @@ paginate: 6
 paginate_path: /page:num/
 
 
+include: 
+    - _pages
+
 # Plugins used by the website
 plugins: 
     - jekyll-paginate

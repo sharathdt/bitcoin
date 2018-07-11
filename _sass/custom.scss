@@ -2,15 +2,23 @@
 .header-audio .download-links {
     top: 0 !important;
 }
+.secondline-themes-header-float #masthead-slt {
+    background-color: #111;
+    
+    @include media-query($on-palm) {
+        position: relative;
+    }
+}
 
 h1#logo-slt {
     font-size: 50px !important;
     font-weight: bold;
     line-height: 2 !important;
+    
     @include media-query($on-palm) {
-        font-size: 20px !important;
-    font-weight: bold;
-    line-height: 5 !important;
+        font-size: 18px !important;
+        font-weight: bold;
+        line-height: 5 !important;
     }
     
     a {
@@ -59,4 +67,14 @@ body #main-container-secondline .elementor-13 .elementor-element.elementor-eleme
 .wj-pagination a:hover {    
     background-color: #f1f1f1;
     color: #333;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-40 {
+    padding-top: 40px;
+}
+.pt-80 {
+    padding-top: 80px;
 }
