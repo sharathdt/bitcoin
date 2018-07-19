@@ -1,5 +1,34 @@
 information:
     title:
-    description:
+    description: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
     facebook:
     twitter:
+    rss: /feed/podcast/
+    
+    
+mic: 
+    - name: Trace Mayer
+      title: Show Host
+      description: Early Bitcoin advocate since it cost a quarter and investor in core blockchain infrastructure including Armory, Bitpay and Kraken with a core purpose to bring monetary sovereignty to individuals.
+      image: /images/trace-mayer.jpg
+      
+    - name: Dr. Adam Back
+      title: Guest
+      description: Blockstream CEO. Cypherpunk cited in the TOR and Bitcoin whitepaper.
+      image: /images/adam-back.jpg
+      
+    - name: Jesse Powell
+      title: Guest
+      description: Kraken CEO. Early digital currency pioneer.
+      image: /images/jesse-powell.jpg
+      
+    - name: Andreas Antonopoulos
+      title: Guest
+      description: Author of Mastering Bitcoin. Bitcoin advocate, technologist and serial entrepreneur.
+      image: /images/andreas-antonopoulos.jpg
+      
+
+subscribe: 
+    - text: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
+
+    - text: The host is an entrepreneur, investor, journalist, monetary scientist and ardent defender of the freedom of speech. He holds accounting and law degrees and has studied Austrian economics focusing on the work of Murray Rothbard and Ludwig von Mises.
