@@ -1,4 +1,8 @@
 
+a {
+    color: $brand-color;
+}
+
 .header-audio .download-links {
     top: 0 !important;
 }
@@ -103,6 +107,20 @@ body #main-container-secondline .elementor-13 .elementor-element.elementor-eleme
 }
 
 .page-style {
-    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
+    
+    .powerpress_player {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.post-title {
+    margin-bottom: 1em;
 }

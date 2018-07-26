@@ -26,26 +26,34 @@
 			<div id="categories-3" class="widget widget_categories">
 				<h4 class="widget-title">Categories</h4>
 				<ul>
-					<li class="cat-item cat-item-5">
-						<a href="{{site.baseurl}}/category/art/">Art 
-							<span class="count">2</span>
+				{% assign sortedcats = site.tags | sort %}
+				{% for tag in sortedcats limit: 4 offset: 3 %}
+				<li class="cat-item cat-item-5">
+						<a href="{{ site.baseurl }}/category/{{ tag | first }}">{{ tag | first | capitalize }} 
+							<span class="count">{{ tag[1].size }}</span>
 						</a>
+					</li>
+				{% endfor %}
+					<!-- <li class="cat-item cat-item-5">
+					    <a href="{{site.baseurl}}/category/art/">Art 
+					        <span class="count">2</span>
+					    </a>
 					</li>
 					<li class="cat-item cat-item-3">
-						<a href="{{site.baseurl}}/category/design/">Design 
-							<span class="count">5</span>
-						</a>
+					    <a href="{{site.baseurl}}/category/design/">Design 
+					        <span class="count">5</span>
+					    </a>
 					</li>
 					<li class="cat-item cat-item-2">
-						<a href="{{site.baseurl}}/category/music/">Music 
-							<span class="count">2</span>
-						</a>
+					    <a href="{{site.baseurl}}/category/music/">Music 
+					        <span class="count">2</span>
+					    </a>
 					</li>
 					<li class="cat-item cat-item-4">
-						<a href="{{site.baseurl}}/category/tech/">Tech 
-							<span class="count">5</span>
-						</a>
-					</li>
+					    <a href="{{site.baseurl}}/category/tech/">Tech 
+					        <span class="count">5</span>
+					    </a>
+					</li> -->
 				</ul>
 			</div>
 			<div id="null-instagram-feed-3" class="widget null-instagram-feed">

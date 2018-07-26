@@ -74,7 +74,7 @@
 									</div>
 									<p class="powerpress_links powerpress_links_mp3">Podcast: 
 										<a href="{{post.podcast}}" class="powerpress_link_pinw" target="_blank" title="Play in new window" onclick="return powerpress_pinw('{{site.baseurl}}{{post.url}}');" rel="nofollow">Play in new window</a> | 
-										<a href="{{post.podcast}}" class="powerpress_link_d" title="Download" rel="nofollow" download="{{post.podcast}}">Download</a>
+										<a target="_blank" href="{{words[0] | remove: '["'}}" class="powerpress_link_d" title="Download" rel="nofollow" download>Download</a>
 									</p>
 								</div>
 							</div>
