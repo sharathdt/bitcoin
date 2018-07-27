@@ -2,6 +2,11 @@
 <html lang="en-US">
     {% include head.html %}
 <body class="home page-template-default page page-id-13 elementor-default elementor-page elementor-page-13">
+    
+    
+<div class="loader">
+    <div class="loader-gif" style="background-image: url({{site.baseurl}}/img/Bitcoin.gif)"></div>
+</div>
 		
 <div id="main-container-secondline" class="secondline-themes-header-normal-width secondline-themes-header-float secondline-themes-logo-position-left secondline-themes-one-page-nav-off" >
 		
@@ -36,6 +41,14 @@
 	</div><!-- close #boxed-layout-slt -->
 
 
+<script>
+$(document).ready(function() {
+    setTimeout(function(){
+        $('.loader').toggle();
+    }, 1000);
+ 
+});    
+</script>
 
 <script type="text/javascript" src="{{site.baseurl}}/js/scripts.js"></script>
 <script type="text/javascript" src="{{site.baseurl}}/js/wp-mediaelement.min.js"></script>
