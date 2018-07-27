@@ -11,6 +11,9 @@ paginate: 6
 paginate_path: /page:num/
 
 
+sass:
+    style: compressed
+
 include: 
     - _pages
 
