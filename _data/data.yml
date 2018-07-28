@@ -55,3 +55,20 @@ subscribe:
 join:
     title: Join Thousands of Listeners Worldwide
     text: Subscribe to one of the most influential podcasts so you can stay updated on important happenings in the Bitcoin space.
+    
+
+resources:
+    - title: How To Give A 5 Star Review?
+      link: 
+      
+    - title: "Beginner's Guide"
+      link:
+      
+    - title: We Use Coins
+      link: https://www.weusecoins.com
+      
+    - title: Bitcoin Mining
+      link: https://www.bitcoinmining.com
+      
+    - title: Bitcoin Miner
+      link: https://www.bitcoinminer.com

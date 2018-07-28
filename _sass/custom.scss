@@ -143,3 +143,16 @@ body #main-container-secondline .elementor-13 .elementor-element.elementor-eleme
         width: 80px;
     }
 }
+
+.subscribe-img {
+    height: 45px !important;
+    margin-bottom: 20px;
+    &:hover {
+        -webkit-filter: hue-rotate(60deg);
+                filter: hue-rotate(60deg);
+    }
+}
+
+.inline {
+    display: inline-block;
+}

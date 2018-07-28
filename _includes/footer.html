@@ -24,16 +24,14 @@
 				</ul>
 			</div>
 			<div id="categories-3" class="widget widget_categories">
-				<h4 class="widget-title">Categories</h4>
+				<h4 class="widget-title">Resources</h4>
 				<ul>
-				{% assign sortedcats = site.tags | sort %}
-				{% for tag in sortedcats limit: 4 offset: 3 %}
+				{% for item in site.data.data.resources %}
 				<li class="cat-item cat-item-5">
-						<a href="{{ site.baseurl }}/category/{{ tag | first }}">{{ tag | first | capitalize }} 
-							<span class="count">{{ tag[1].size }}</span>
+						<a href="{{item.link}}">{{item.title}}
 						</a>
 					</li>
-				{% endfor %}
+                {% endfor %}
 					<!-- <li class="cat-item cat-item-5">
 					    <a href="{{site.baseurl}}/category/art/">Art 
 					        <span class="count">2</span>
