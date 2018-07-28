@@ -28,7 +28,7 @@
 				<ul>
 				{% for item in site.data.data.resources %}
 				<li class="cat-item cat-item-5">
-						<a href="{{item.link}}">{{item.title}}
+						<a href="{%if item.link contains 'http' %}{{item.link}}{% else %}{{site.baseurl}}{{item.link}}{% endif %}">{{item.title}}
 						</a>
 					</li>
                 {% endfor %}

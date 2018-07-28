@@ -59,10 +59,10 @@ join:
 
 resources:
     - title: How To Give A 5 Star Review?
-      link: 
+      link: /review/
       
     - title: "Beginner's Guide"
-      link:
+      link: /beginner-toolkit/
       
     - title: We Use Coins
       link: https://www.weusecoins.com
