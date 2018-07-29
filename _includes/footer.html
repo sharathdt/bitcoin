@@ -72,7 +72,7 @@
                     }
                     };
                     e.addEventListener("message", function(e) {
-                    if (-1 === ["lightwidget.com", "dev.lightwidget.com", "cdn.lightwidget.com", "instansive.com"].indexOf(e.origin.replace(/^https?:\/\//i, ""))) return 1;
+                    if (-1 === ["lightwidget.com", "dev.lightwidget.com", "cdn.lightwidget.com", "instansive.com"].indexOf(e.origin.replace(/^http?:\/\//i, ""))) return 1;
                     var r = t(e.data);
                     if (r.size <= 0) return !1;
                     [].forEach.call(i.querySelectorAll('iframe[src*="lightwidget.com/widgets/' + r.widgetId + '"],iframe[src*="instansive.com/widgets/' + r.widgetId + '"]'), function(e) {
