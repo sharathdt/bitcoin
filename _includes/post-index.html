@@ -19,24 +19,29 @@
 				</div>
 				<div data-id="pnthgvg" class="elementor-element elementor-element-pnthgvg elementor-widget elementor-widget-secondline-post-list" data-element_type="secondline-post-list.default">
 				<div class="elementor-widget-container">
-				
-
-
-	<div class="secondline-themes-post-list-main">
 
 		
+       
+       
+        <div id="post-index" class="secondline-themes-post-list-main">
+			
+			
 		
-		<div class="secondline-masonry-margins">
+		<div  class="secondline-masonry-margins">
 			<div id="secondline-blog-index-masonry-pnthgvg" style="position: relative; height: 2022px;">
+			
+               
+
+			
 		
 {% for post in paginator.posts offset: 1 %}
-    <div class="secondline-masonry-item  opacity-secondline" style="position: absolute; left: 0%; top: 0px;">
+    <div  class="secondline-masonry-item  opacity-secondline" style="position: absolute; left: 0%; top: 0px;">
 	<div class="secondline-masonry-padding-blog  secondline_elements_post_list_read_more single-column-slt fitRows-secondline ">
 		<div class="secondline-themes-isotope-animation">
 			<div id="post-79" class="post-79 post type-post status-publish format-standard has-post-thumbnail hentry category-design">
 				<div class="secondline-themes-default-blog-index">
 					<div class="secondline-themes-feaured-image">
-						<a href="{{site.baseurl}}{post.url}">
+						<a href="{{site.baseurl}}{{post.url}}">
 							<img width="350" height="325" src="{{site.baseurl}}/img/bitcoin-knowledge-podcast.jpg" class="attachment-secondline-themes-index-single-column size-secondline-themes-index-single-column wp-post-image match-height-slt" alt="">
 							</a>
 						</div>
@@ -69,7 +74,7 @@
 										<audio class="wp-audio-shortcode" id="audio-79-2" preload="none" style="width: 100%;" controls="controls">
 										
 											<source type="audio/mpeg" src="{{words[0] | remove: '["'}}" />
-											<a href="{{post.podcast}}">{{post.podcast}}</a>
+											
 										</audio>
 									</div>
 									<p class="powerpress_links powerpress_links_mp3">Podcast: 
@@ -93,8 +98,7 @@
        
        
 </div>
-</div>
-				
+</div>		
 	
 		<!-- pagination -->
 {% include pagination-v2.html %}
@@ -105,9 +109,9 @@
 	
 		
 					
-    <div id="secondline-load-more-manual">
-    <!-- <div id="infinite-nav-slt-pnthgvg" class="infinite-nav-slt"><div class="nav-previous"><a href="{{site.baseurl}}/page/2/">More Episodes<span><i class="fa "></i></span></a></div> -->
-    </div>
+   <!--  <div id="secondline-load-more-manual">
+    <div id="infinite-nav-slt-pnthgvg" class="infinite-nav-slt"><div class="nav-previous"><a href="{{site.baseurl}}/page/2/">More Episodes<span><i class="fa "></i></span></a></div>
+    </div> -->
     </div>
 						
 			

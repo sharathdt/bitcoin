@@ -57,6 +57,20 @@ join:
     text: Subscribe to one of the most influential podcasts so you can stay updated on important happenings in the Bitcoin space.
     
 
+      
+footer: 
+    section-1:
+        title: About Bitcoin Knowledge
+        text: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
+        assistant-email: ethanannis@protonmail.com
+        
+    section-2:
+        title: Recent Podcasts        
+    
+    section-3:
+        title: Resources
+        
+
 resources:
     - title: How To Give A 5 Star Review?
       link: /review/
