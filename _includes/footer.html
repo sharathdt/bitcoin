@@ -58,7 +58,35 @@
 			</div>
 			<div id="null-instagram-feed-3" class="widget null-instagram-feed">
 				<h4 class="widget-title">Instagram Feed</h4>
-				<!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/128a3bb937cc532cb2cfd1f96ae20932.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+				
+				<script>
+                    ! function(e, i) {
+                    "use strict";
+                    if (e.hasOwnProperty("lightwidget")) return !1;
+                    var t = function(e) {
+                    if (e.indexOf("{") > -1) return JSON.parse(e);
+                    var i = e.split(":");
+                    return {
+                    widgetId: i[2].replace("instansive_", "").replace("lightwidget_"),
+                    size: i[1]
+                    }
+                    };
+                    e.addEventListener("message", function(e) {
+                    if (-1 === ["lightwidget.com", "dev.lightwidget.com", "cdn.lightwidget.com", "instansive.com"].indexOf(e.origin.replace(/^https?:\/\//i, ""))) return 1;
+                    var r = t(e.data);
+                    if (r.size <= 0) return !1;
+                    [].forEach.call(i.querySelectorAll('iframe[src*="lightwidget.com/widgets/' + r.widgetId + '"],iframe[src*="instansive.com/widgets/' + r.widgetId + '"]'), function(e) {
+                    e.style.height = r.size + "px"
+                    })
+                    }, !1), e.lightwidget = {}
+                    }(window, document);
+                </script>
+				
+				<!-- LightWidget WIDGET -->
+				
+				<!-- <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script> -->
+				
+				<iframe src="//lightwidget.com/widgets/128a3bb937cc532cb2cfd1f96ae20932.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
 				
 				<!-- LightWidget WIDGET -->
 				
