@@ -199,7 +199,7 @@ body, body input, body textarea, select {
 	line-height: 1.6; 
 	font-size:16px;
 	color:#3b5987;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 	color:#263669;
 	margin:0px 0px 15px 0px;
 	line-height:1.4;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 	font-weight:400;
 }
 
@@ -436,7 +436,7 @@ body #content-slt #error-page-index .search-form {
 	list-style:none;
 	font-size: 18px;
 	font-weight: 400;
-	font-family: 'Roboto';
+	font-family: $base-font-family;
     color: #8a8a8a;
 }
 
@@ -750,7 +750,7 @@ header#masthead-slt.secondline-themes-nav-center #secondline-nav-container nav#s
     font-size: 18px;
     font-weight: 400;
 	position:relative;
-    font-family: 'Open Sans';
+    font-family: $base-font-family;
 	z-index:5;
 }
 
@@ -943,7 +943,7 @@ nav#secondline-themes-right-navigation ul li a {
 	display:inline-block;
 	font-size:14px;
 	font-weight:500;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 	line-height:1;
 	padding:14px 19px;
 	color:#263669;
@@ -1007,7 +1007,7 @@ nav#secondline-themes-right-navigation ul li a i {
 
 h2.mega-menu-heading, nav#site-navigation {
     font-weight: 500;
-	font-family: 'Roboto', sans-serif;
+	font-family: $base-font-family;
 	letter-spacing: 0px;
 	text-transform:none;
 }
@@ -1091,7 +1091,7 @@ h2.mega-menu-heading, nav#site-navigation {
 .sf-menu ul {
 	border-top:2px solid #d3bc6c;
 	font-weight:400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: $base-font-family;
 	box-shadow: 0px 5px 5px rgba(0,0,0, 0.05);
 }
 
@@ -1606,7 +1606,7 @@ h6.secondline-blog-slider-smallest-title {
 }
 
 body .secondline-themes-post-slider-main .secondline-post-meta span a, body .secondline-themes-post-slider-main .secondline-post-meta span {
-	font-family: 'Open Sans', serif;
+	font-family: $base-font-family;
     color: #ffffff;
     font-size: 12px;
     font-weight: 400;
@@ -2031,7 +2031,7 @@ body .secondline-themes-sticky-post {
 	position:absolute;
 	top:0px;
 	right:0px;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 	font-size:12px;
 	font-weight:500;
 	padding:4px 8px;
@@ -2163,7 +2163,7 @@ h2.secondline-blog-title a:hover {
 
 
 .secondline-post-meta {
-	font-family:'Open Sans', serif;
+	font-family: $base-font-family;
 	font-weight:400;
 	color:#aaaaaa;
 	font-size:12px;
@@ -2194,7 +2194,7 @@ h2.secondline-blog-title a:hover {
 a.more-link {
 	color:#263669;
 	font-weight: 700;
-	font-family: Roboto;
+	font-family: $base-font-family;
 	font-size:12px;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -2237,7 +2237,7 @@ a.more-link:hover {
 
 
 .secondline-themes-default-blog-index .secondline-post-meta {
-    font-family: 'Open Sans', serif;
+    font-family: $base-font-family;
     color: #3b5987;
     font-size: 13px;
     font-weight: 700;
@@ -2247,7 +2247,7 @@ a.more-link:hover {
 }
 
 body .secondline-themes-post-slider-main .secondline-post-meta {
-    font-family: 'Open Sans', serif; 
+    font-family: $base-font-family;
     font-size: 14px;
     font-weight: 700;
     text-transform: none;
@@ -2410,7 +2410,7 @@ h1.blog-page-title {
 }
 
 .single-secondline-post-meta {
-	font-family:'Open Sans', serif;
+	font-family: $base-font-family;
 	color:#ffffff;
 	font-size:12px;
 	font-weight: 400;
@@ -2453,7 +2453,7 @@ h1.blog-page-title {
 	margin-left:5px;
     margin-bottom: 7px;
 	border-radius:3;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 	padding:6px 12px;
 	font-size:14px;
 	color:#575757;
@@ -2541,7 +2541,7 @@ ul.blog-single-social-sharing {
 	padding:40px 0px;
 	text-align:center;
 	list-style:none;
-	font-family: 'Roboto', sans-serif;
+	font-family: $base-font-family;
 	font-weight:400;
 	font-size: 20px;
 	border-top:1px solid #ebebeb;
@@ -2877,7 +2877,7 @@ ul.secondline-filter-button-group li {
     display: inline-block;
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', serif;
+    font-family: $base-font-family;
     color: #263669;
     font-weight: 700;
     font-size: 12px;
@@ -2905,7 +2905,7 @@ ul.secondline-filter-button-group li.slt-checked {
 */
 .sidebar {
 	font-size:16px;
-	font-family: 'Open Sans';
+	font-family: $base-font-family;
 }
 
 .sidebar-item {
@@ -3063,7 +3063,7 @@ footer#site-footer table#wp-calendar {
 
 /* Count Styling for Category/Archive */
 .widget ul span.count {
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 	font-weight:500;
 	float:right;
 	color:#777;
@@ -3121,7 +3121,7 @@ footer#site-footer .widget ul span.count {
 	color:#263669;
 	border-radius:3px;
 	font-weight:400;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
 	
 }
 .secondline-page-nav a:hover span {
@@ -3149,7 +3149,7 @@ footer#site-footer .widget ul span.count {
 	color:#232530;
 	border-radius:3px;
 	font-weight:400;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
 }
 
 .secondline-page-nav a:hover, .secondline-page-nav span, #content-slt ul.page-numbers li a:hover, #content-slt ul.page-numbers li span.current {
@@ -3185,7 +3185,7 @@ footer#site-footer .widget ul span.count {
 	font-weight:700;
 	color:#ffffff;
 	font-size:12px;
-	font-family:'Roboto', serif;
+	font-family: $base-font-family;
     text-transform: uppercase;
     letter-spacing: 1.2px;
 	
@@ -3256,7 +3256,7 @@ a#edit-sltfile {
 	color:#ffffff;
 	background:#333333;
 	font-size:13px;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
 }
 a#edit-sltfile:hover {
 	background:#000000;
@@ -3293,13 +3293,13 @@ body #main-container-secondline .acf-form .acf-field .acf-input a.acf-button.but
 	color:#ffffff;
 	background:#263669;
 	font-size:12px;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
     text-transform: uppercase;
     letter-spacing: 1.2px;
 }
 
 #main-container-secondline .elementor-button-text {
-    font-family:'Roboto', serif;    
+    font-family:$base-font-family;    
 }
 
 #newsletter-form-fields input.button,
@@ -3319,7 +3319,7 @@ a.secondline-themes-button,
 	color:#ffffff;
 	font-size:12px;
     letter-spacing: 0.3px;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
 }
 
 
@@ -3569,7 +3569,7 @@ ul.secondline-themes-category-list li {
 
 ul.secondline-themes-category-list li a {
 	display:block;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
 	width:90%;
 	padding:10px 5%;
 	line-height:1;
@@ -3641,7 +3641,7 @@ ul.secondline-themes-category-list li a span {
 footer#site-footer {
 	color: rgba(255,255,255,0.5);
 	position:relative;	
-    font-family: 'Open Sans', sans-serif;
+    font-family: $base-font-family;
     font-size: 16px;
     font-weight: 400;	
 }
@@ -3858,7 +3858,7 @@ footer#site-footer ul.secondline-themes-footer-nav-container-class a {
 	margin-bottom:30px;
 	font-weight:400;
 	letter-spacing:0.5px;
-	font-family:'Roboto', serif;
+	font-family:$base-font-family;
 }
 
 footer#site-footer #secondline-themes-copyright ul.secondline-themes-footer-nav-container-class li.current-menu-item a, footer#site-footer  #secondline-themes-copyright ul.secondline-themes-footer-nav-container-class a:hover,

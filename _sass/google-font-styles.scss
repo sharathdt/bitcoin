@@ -1,5 +1,5 @@
-body,  body input, body textarea, select { color: #3b5987; font-family: 'Open Sans'; }
-nav#site-navigation, nav#secondline-themes-right-navigation { font-family: 'Roboto'; }
+body,  body input, body textarea, select { color: #3b5987; font-family: $base-font-family; }
+nav#site-navigation, nav#secondline-themes-right-navigation { font-family: $base-font-family; }
 .sf-menu ul, #main-nav-mobile { }
 #page-title-slt h1 { }
 #page-title-slt h4 { }
