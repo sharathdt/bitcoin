@@ -10,11 +10,21 @@ bitcointips_address:
 views:
   - "17763"
 permalink: /archives/
+type: archive
 ---
 
 
 <h3 id="archive">Archive of all episodes of The Bitcoin Knowledge Podcast:</h3>
-<div>
+
+<input type="text" id="search-input" placeholder="Search blog posts..">
+
+<div id="search-index">
+<ul id="results-container">
+    
+</ul>
+</div>
+
+<div id="post-index">
 {% for post in site.posts %}
    {% assign currentDate = post.date | date: "%Y" %}
    {% if currentDate != myDate %}
@@ -23,7 +33,7 @@ permalink: /archives/
        <ul>
        {% assign myDate = currentDate %}
    {% endif %}
-   <li><a href="{{ post.url }}"><span>{{ post.date | date: "%B %-d, %Y" }}</span> - {{ post.title }}</a></li>
+   <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }} - <span>{{ post.date | date: "%B %-d, %Y" }}</span></a></li>
    {% if forloop.last %}</ul>{% endif %}
    {% endfor %}
 </div>

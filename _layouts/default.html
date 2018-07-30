@@ -95,6 +95,39 @@ var elementorFrontendConfig = {"isEditMode":"","settings":{"page":[],"general":{
 
 <script type="text/javascript" src="{{site.baseurl}}/js/frontend.min.js"></script>
 
+{% if page.type == 'archive' %}
+<script src="{{site.baseurl}}/js/simple-jekyll-search.min.js"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  searchResultTemplate: '<li><a href="{url}">{title} - <span>{date}</span></a></li>',
+  json: '{{site.baseurl}}/search.json'
+})
+</script>
+
+<script>
+$(function() {
+
+    $('#search-input').on('keyup change', function() {
+        if (this.value.length > 0) {
+            $('#post-index').hide();
+            $('#search-index').show();
+        } else {
+            $('#post-index').show();
+            $('#search-index').hide();
+        }
+    });    
+    
+
+    
+});    
+</script>
+
+{% endif %}
+
 
 </body>
 </html>
