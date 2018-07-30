@@ -9,6 +9,7 @@ bitcointips_address:
   - 174e2jBktiY6Fa4aYPXCPaUQoh91gWWQfq
 views:
   - "17763"
+permalink: /archives/
 ---
 
 

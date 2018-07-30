@@ -22,28 +22,19 @@
                <nav id="site-navigation" class="main-navigation">
                   <div class="menu-main-navigation-container">
                      <ul id="menu-main-navigation" class="sf-menu sf-js-enabled sf-arrows" style="touch-action: pan-y;">
-                        <li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-141"><a href="{{site.baseurl}}/">Home</a></li>
-                        <li id="menu-item-127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-127">
-                           <a href="{{site.baseurl}}/episodes/" class="sf-with-ul">Episodes</a>
-                           <ul class="sub-menu" style="display: none;">
-                              <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="{{site.baseurl}}/episodes/">Episodes List</a></li>
-                              <li id="menu-item-128" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"><a href="{{site.baseurl}}/episode-sorting/">Episode Sorting</a></li>
-                              <li id="menu-item-129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="{{site.baseurl}}/episode-in-context/">Episode in Context</a></li>
-                              <li id="menu-item-130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="{{site.baseurl}}/episodes-masonry/">Episodes: Masonry</a></li>
-                              <li id="menu-item-131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="{{site.baseurl}}/episode-archives/">Episode Archives</a></li>
-                              <li id="menu-item-121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-121">
-                                 <a href="#!" class="sf-with-ul">Episode Examples</a>
-                                 <ul class="sub-menu" style="display: none;">
-                                    <li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-135"><a href="{{site.baseurl}}/episode-1-design-in-the-21st-century/">Standard</a></li>
-                                    <li id="menu-item-132" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-132"><a href="{{site.baseurl}}/episode-6-soundcloud-example/">SoundCloud</a></li>
-                                    <li id="menu-item-133" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-133"><a href="{{site.baseurl}}/episode-5-mixcloud-example/">MixCloud</a></li>
-                                    <li id="menu-item-134" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-134"><a href="{{site.baseurl}}/episode-4-external-audio-file/">External MP3 File</a></li>
-                                 </ul>
-                              </li>
-                           </ul>
-                        </li>
-                        <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="{{site.baseurl}}/about/">About</a></li>
-                        <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="{{site.baseurl}}/contact/">Contact Us</a></li>
+                        
+                        
+                        {% for item in site.data.data.menu %}
+                        <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126 {% if page.url == item.link %}current-menu-item{% endif %}"><a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a></li>
+                        {% endfor %}
+
+       <!-- 
+        <li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-141"><a href="{{site.baseurl}}/">Home</a></li>
+
+        <li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="{{site.baseurl}}/about/">About</a></li>
+        <li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="{{site.baseurl}}/contact/">Contact Us</a></li>
+      -->
+                     
                      </ul>
                   </div>
                   <div class="clearfix-slt"></div>

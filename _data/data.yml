@@ -13,13 +13,13 @@ menu:
       link: '/'
       
     - title: About
-      link: /about/
+      link: '/about/'
                   
     - title: Archives
-      link: /archives/
+      link: '/archives/'
             
-    - title: Contact Us
-      link: /contact/
+    - title: Legendary
+      link: '/legendary/'
       
       
 
@@ -54,13 +54,15 @@ subscribe:
 
 join:
     title: Join Thousands of Listeners Worldwide
-    text: Subscribe to one of the most influential podcasts so you can stay updated on important happenings in the Bitcoin space.
+    text-1: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
+    text-2: The host is an entrepreneur, investor, journalist, monetary scientist and ardent defender of the freedom of speech. He holds accounting and law degrees and has studied Austrian economics focusing on the work of Murray Rothbard and Ludwig von Mises.
+    text-3: Subscribe to one of the most influential podcasts so you can stay updated on important happenings in the Bitcoin space.
     
 
       
 footer: 
     section-1:
-        title: About Bitcoin Knowledge
+        title: Bitcoin Knowledge
         text: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
         assistant-email: ethanannis@protonmail.com
         
