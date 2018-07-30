@@ -103,7 +103,7 @@ var elementorFrontendConfig = {"isEditMode":"","settings":{"page":[],"general":{
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<li><a href="{url}">{title} - <span>{date}</span></a></li>',
+  searchResultTemplate: '<li><a href="{url}"><span>{date}</span> - {title}</a></li>',
   json: '{{site.baseurl}}/search.json'
 })
 </script>

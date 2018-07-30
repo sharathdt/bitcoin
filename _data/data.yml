@@ -5,7 +5,7 @@ information:
     twitter: https://twitter.com/bitcoinkn
     apple-podcast: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=301670981&mt=2&ls=1
     android-podcast: https://subscribeonandroid.com/www.bitcoin.kn/feed/podcast/
-    rss: /feed/podcast/
+    rss: https://www.bitcoin.kn/feed/podcast/
     
 
 menu: 
@@ -32,17 +32,20 @@ mic:
       
     - name: Dr. Adam Back
       title: Guest
-      description: Blockstream CEO. Cypherpunk cited in the TOR and Bitcoin whitepaper.
+      #description: Blockstream CEO. Cypherpunk cited in the TOR and Bitcoin whitepaper.
+      description:  Adam Black is the CEO of Blockstream, a company that seeks to further the development of bitcoin and blockchain technology.
       image: /images/adam-back.jpg
       
     - name: Jesse Powell
       title: Guest
-      description: Kraken CEO. Early digital currency pioneer.
+      # description: Kraken CEO. Early digital currency pioneer.
+      description: Jesse Powell is an early digital currency pioneer, an expert in virtual currencies, online/international payments and fraud, as well as co-founder and CEO of Kraken.
       image: /images/jesse-powell.jpg
       
     - name: Andreas Antonopoulos
       title: Guest
-      description: Author of Mastering Bitcoin. Bitcoin advocate, technologist and serial entrepreneur.
+      #description: Author of Mastering Bitcoin. Bitcoin advocate, technologist and serial entrepreneur.
+      description: Andreas M. Antonopoulos is the author of Author of Mastering Bitcoina. He is a bitcoin advocate, a teaching fellow for the M.Sc. Digital Currencies at the University of Nicosia.
       image: /images/andreas-antonopoulos.jpg
       
 
