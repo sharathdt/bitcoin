@@ -17,7 +17,6 @@ type: archive
 <h3 id="archive">Archive of all episodes of The Bitcoin Knowledge Podcast:</h3>
 
 <input type="text" id="search-input" placeholder="Search blog posts..">
-
 <div id="search-index">
 <ul id="results-container">
     
