@@ -58,30 +58,10 @@
                <div class="collapse-button"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></div>
             </div>
             <ul id="menu-main-navigation-1" class="mobile-menu-slt" style="display: block;">
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-141"><a href="{{site.baseurl}}/">Home</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-127">
-                  <a href="{{site.baseurl}}/episodes/">Episodes</a>
-                  <ul class="sub-menu" style="display: none;">
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="{{site.baseurl}}/episodes/">Episodes List</a></li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-128"><a href="{{site.baseurl}}/episode-sorting/">Episode Sorting</a></li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-129"><a href="{{site.baseurl}}/episode-in-context/">Episode in Context</a></li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-130"><a href="{{site.baseurl}}/episodes-masonry/">Episodes: Masonry</a></li>
-                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-131"><a href="{{site.baseurl}}/episode-archives/">Episode Archives</a></li>
-                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-121">
-                        <a href="#!">Episode Examples</a>
-                        <ul class="sub-menu" style="display: none;">
-                           <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-135"><a href="{{site.baseurl}}/episode-1-design-in-the-21st-century/">Standard</a></li>
-                           <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-132"><a href="{{site.baseurl}}/episode-6-soundcloud-example/">SoundCloud</a></li>
-                           <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-133"><a href="{{site.baseurl}}/episode-5-mixcloud-example/">MixCloud</a></li>
-                           <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-134"><a href="{{site.baseurl}}/episode-4-external-audio-file/">External MP3 File</a></li>
-                        </ul>
-                        <span class="sub-collapser"><i>▼</i></span>
-                     </li>
-                  </ul>
-                  <span class="sub-collapser"><i>▼</i></span>
-               </li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="{{site.baseurl}}/about-us/">About Us</a></li>
-               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-125"><a href="{{site.baseurl}}/contact/">Contact Us</a></li>
+              
+                {% for item in site.data.data.menu %}
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126 {% if page.url == item.link %}current-menu-item{% endif %}"><a href="{{site.baseurl}}{{item.link}}">{{item.title}}</a></li>
+                {% endfor %}
             </ul>
          </div>
          <div class="sidebar secondline-themes-mobile-sidebar"></div>

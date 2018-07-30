@@ -10,6 +10,19 @@ description: 'Interviews with the top people in the Bitcoin world about blockcha
 paginate: 6
 paginate_path: /page:num/
 
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+
 
 sass:
     style: compressed

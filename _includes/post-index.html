@@ -122,7 +122,7 @@
 	<script type="text/javascript"> 
 	jQuery(document).ready(function($) {
 		'use strict';
-		/* Default Isotope Load Code */
+
 		var $containerpnthgvg = $("#secondline-blog-index-masonry-pnthgvg").isotope();
 		$containerpnthgvg.imagesLoaded( function() {
 			$(".secondline-masonry-item").addClass("opacity-secondline");
@@ -132,7 +132,7 @@
 				layoutMode: "fitRows"  
 	 		});
 		});
-		/* END Default Isotope Code */		
+	
 		
 		
 				
@@ -140,7 +140,7 @@
 		
 		
 				
-		/* Begin Infinite Scroll */
+
 		$containerpnthgvg.infinitescroll({
 		errorCallback: function(){  $("#infinite-nav-slt-pnthgvg").delay(500).fadeOut(500, function(){ $(this).remove(); }); },
 		  navSelector  : "#infinite-nav-slt-pnthgvg",  
@@ -154,7 +154,7 @@
 		  },
 		  
 		  
-		  // trigger Isotope as a callback
+
 		  function( newElements ) {
 			  
 			  !function(a, b) {
@@ -234,17 +234,14 @@
 
 		  }
 		);
-	    /* END Infinite Scroll */
-				
-		
-				/* PAUSE FOR LOAD MORE */
+
 		$(window).unbind(".infscr");
-		// Resume Infinite Scroll
+
 		$("#infinite-nav-slt-pnthgvg .nav-previous a").click(function(){
 			$containerpnthgvg.infinitescroll("retrieve");
 			return false;
 		});
-		/* End Infinite Scroll */
+
 				
 	});
 	</script>
