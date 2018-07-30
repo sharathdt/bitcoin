@@ -1,12 +1,12 @@
 information:
-    title:
+    title: The Bitcoin Knowledge Podcast
     description: To help you better understand Bitcoin the top people in the Bitcoin industry are interviewed by Trace Mayer for the Bitcoin Knowledge Podcast.
     facebook: https://www.facebook.com/bitcoinknowledge
     twitter: https://twitter.com/bitcoinkn
     apple-podcast: https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=301670981&mt=2&ls=1
     android-podcast: https://subscribeonandroid.com/www.bitcoin.kn/feed/podcast/
     rss: https://www.bitcoin.kn/feed/podcast/
-    
+    analytics: UA-144215-28s
 
 menu: 
     - title: Home
