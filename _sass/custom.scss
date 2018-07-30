@@ -7,11 +7,11 @@ a {
     top: 0 !important;
 }
 
-.secondline-themes-header-float #masthead-slt {
-    /* background-color: #111; */
-    
+header#masthead-slt {
+
     @include media-query($on-palm) {
         position: relative;
+        background-color: #111;
     }
 }
 
